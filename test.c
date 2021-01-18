@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	if(isBug("projectName")){
-		while(!isEmpty("projectName"){
-			delete("projectName");
-		}
+	for(int i=0; i<projectName.size; i++){
+			projectName.open();
 	}
 }
