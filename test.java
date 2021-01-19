@@ -12,7 +12,10 @@ public class Test {
 		for(int i=0; i<array.length; i++) {
 			if(Arrays.asList(list).contains(array[i])){
 				if(Arrays.asList(list).contains(array[i])){
-
+					if(i == 0) {
+						char temp = array[i].charAt(0);
+						result += Character.toString(temp);
+					}
 				}
 
 			}else {
